@@ -3,7 +3,6 @@ import subprocess
 os.system("git clone https://github.com/Igcifiifigci/mainrepo")
 os.chdir("mainrepo")
 os.system("python -m pip install --upgrade pip")
-os.system("pip install aria2p")
 process = subprocess.Popen(
         ["python3", "-m", "SuperBot"],
         stdout=subprocess.PIPE,
